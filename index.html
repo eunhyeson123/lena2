@@ -23,6 +23,8 @@
             font-size: 50px;
             font-family: 'Times New Roman', Times, serif;
             letter-spacing: 20px;
+            overflow: hidden;
+            white-space: nowrap;
         
         }
        
@@ -64,10 +66,10 @@
           
         }
         .contact1{
-            position : absolute;
-            top: 30%;
-            left: 53%;
-            font-size: 14px;
+        position : absolute;
+        top: 30%;
+        left: 53%;
+        font-size: 14px;
             
         }
         
@@ -82,7 +84,6 @@
         .container {
            max-width: 1224px;
            width: 90%;
-           margin: auto;
            padding: 40px 0;
            transform: translate(-50% ,-50%);
            position: absolute;
@@ -119,10 +120,34 @@
      transform: scale(1.05);
           }
 
-@media(max-width: 768px){
-  .photo-gallery {
+
+ @media(max-width: 768px){
+    body {
+        font-size: 16px;
+        max-width: 100%; 
+    }
+    .center {
+        font-size: 30px;
+        letter-spacing: 10px;
+        
+    }
+    .dropdown {
+        top: 30%;
+        left: 35%;
+        font-size: 12px;
+    }
+    .contact1 {
+        top: 30%;
+        left: 53%;
+        font-size: 12px;
+    }
+    .photo-gallery {
     flex-direction: column;
+    position: absolute;
+
+        
   }
+  
 }
        
 
@@ -142,6 +167,7 @@
               <a href="https://summer-breeze3.netlify.app/">Branding</a>
             </div>
           </div> 
+         
           <div class="contact1">
             <a href="https://lena5.netlify.app/">Contact</a>
         </div>
@@ -153,28 +179,28 @@
         <div class="photo-gallery">
            <div class="column">
              <div class="photo">
-                <img src="./images/a-cup.png" alt="cup images" >
+                <img src="./images/a-cup.png" alt="cup image" >
              </div>
              <div class="photo">
-                <img src="images/b-mat.png" alt="match latte images">
+                <img src="images/b-mat.png" alt="match latte image">
              </div>
            
            </div>
            <div class="column">
              <div class="photo">
-                <img src="images/a-amond.png" alt="">
+                <img src="images/a-amond.png" alt="coffee image">
              </div>
              <div class="photo">
-                <img src="images/b-baget.png" alt="" >
+                <img src="images/b-baget.png" alt="bread image" >
              </div>
             
            </div>
             <div class="column">
               <div class="photo">
-                <img src="images/a-choose.png" alt="">
+                <img src="images/a-choose.png" alt="coffees menu">
              </div> 
            <div class="photo">
-                <img src="images/b-vin.png" alt="">
+                <img src="images/b-vin.png" alt="vin chaund">
              </div>
            </div> 
         </div>
