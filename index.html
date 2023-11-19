@@ -37,6 +37,12 @@
             font-size: 14px;
             color: rgb(168, 166, 166);
          }
+         .dropdown a{
+            text-decoration: none;
+            font-size: 14px;
+            color: rgb(168, 166, 166);
+         }
+
          .dropdown :hover{
             color: pink;
          }
@@ -102,11 +108,11 @@
          gap: 20px;
          }
 
-.column {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+       .column {
+         display: flex;
+         flex-direction: column;
+         gap: 20px;
+        }
 
 .photo img {
   width: 100%;
@@ -141,9 +147,9 @@
         left: 53%;
         font-size: 12px;
     }
-      .container{
-        top: 15%;
-      }
+    .container{
+    top: 15%;
+   }
     .photo-gallery {
     flex-direction: column;
     position: absolute;
@@ -157,13 +163,13 @@
     </style>
 
 </head>
-
+ 
 <body>
   
  <header>
         <div class="center">LENA SON</div>
         <div class="dropdown">
-            <span class="dropbtn">Project</span>
+          <span class="dropbtn"> <a href="https://lena2.netlify.app/">Project</a></span>
             <div class="menu">
               <a href="https://lena2.netlify.app/">Poster</a>
               <a href="https://lena3.netlify.app/">Photo</a>
@@ -202,11 +208,13 @@
               <div class="photo">
                 <img src="images/a-choose.png" alt="coffees menu">
              </div> 
-           <div class="photo">
+              <div class="photo">
                 <img src="images/b-vin.png" alt="vin chaund">
              </div>
            </div> 
         </div>
+
+
       </div>
 </main>
 </body>
